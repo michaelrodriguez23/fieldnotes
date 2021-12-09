@@ -28,5 +28,7 @@ img {
   width: 400px;
 }
 #garden {
+  position: relative;
   width: 100vw;
+  right: 50%;
 }
