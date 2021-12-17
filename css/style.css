@@ -32,3 +32,34 @@ img {
   width: 100vw;
   right: 50%;
 }
+
+table.GeneratedTable {
+  width: 20%;
+
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #336600;
+  border-style: double;
+  color: rgb(4, 42, 4);
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px double red;
+}
+
+table.GeneratedTable td,
+table.GeneratedTable th {
+  border-width: 2px;
+  border-color: red;
+  border-style: double;
+  padding: 0.8;
+  color: navy;
+}
+
+table.GeneratedTable thead {
+  background-color: palegoldenrod;
+}
+#hotkey-title {
+  color: white;
+  text-align: center;
+}
